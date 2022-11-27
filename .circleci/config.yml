@@ -12,7 +12,7 @@ jobs:
           no_output_timeout : 1h
           command: |
             docker run -e CI=true ezamliko/android:latest
-      #########################################################
+      ########################################################
   java:
       resource_class: medium
       docker:
